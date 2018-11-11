@@ -13,6 +13,7 @@ cap = cv2.VideoCapture(0)
 
 # Create a black image, a window
 img = np.zeros((240,320,3), np.uint8)
+res = np.zeros((240,320,3), np.uint8)
 cv2.namedWindow('image')
 
 # create trackbars for color change
